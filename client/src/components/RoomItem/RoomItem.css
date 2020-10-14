@@ -1,0 +1,72 @@
+.description {
+    font-size: 18px;
+}
+
+.uk-card-header {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.uk-card-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.uk-card-footer {
+    padding-top: 10px;
+}
+
+.RoomItem {
+    font-size: 14px;
+}
+
+.address {
+    font-weight: bold;
+}
+
+.purposes {
+    display: inline;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.RoomItem .Title {
+    font-size: 24px;
+}
+
+.description-content {
+    height: 2em;
+    line-height: 1em;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.reviews {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    display: inline;
+    margin-left: 10px;
+}
+
+.review-date {
+    display: inline;
+    margin-left: 30px;
+}
+
+.review-rating {
+    display: inline;
+    margin-left: 30px;
+}
+
+.review-content {
+    padding-top: 5px;
+    margin-left: 10px;
+}

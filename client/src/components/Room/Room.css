@@ -1,0 +1,81 @@
+body {
+    font: 24px area, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item {
+    margin-right: 5em
+}
+
+.nav-tabs {
+    margin: 2em;
+}
+
+.Room {
+    align-self: start;
+    justify-self: center;
+    /*max-width: 2048px;*/
+    display: grid;
+    grid-template-columns: auto 25em;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.Room .Title {
+    font-weight: bold;
+    font-size: 56px;
+    grid-column: 1 / span 1;
+    grid-row: 1/ span 1;
+    align-self: center;
+    justify-self: start;
+
+}
+
+.Content-Select{
+    grid-column: 1 / span 2;
+    grid-row: 2 /span 1;
+}
+.Content {
+    grid-column: 1 / span 2;
+    grid-row: 3/ span 1;
+}
+
+.Booking {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    justify-self: stretch;
+}
+
+.TopRight {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    place-self: end;
+
+}
+
+
+.Images {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 2;
+    justify-self: stretch;
+    height: 40%;
+}
+
+.Reviews {
+    grid-column: 1 / span 2;
+    grid-row : 6 / span 1;
+}
+
+.Map {
+    grid-column: 2 /span 1;
+    grid-row: 5 / span 1;
+    justify-self: stretch;
+}
+
+.Map iframe {
+    place-self: center;
+}

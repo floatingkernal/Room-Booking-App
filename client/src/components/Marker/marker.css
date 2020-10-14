@@ -1,0 +1,9 @@
+.Marker {
+  height: 25px;
+  width: 25px;
+  background-color: #4c90ff;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 15px;
+}

@@ -1,0 +1,66 @@
+#homepage {
+  background: url(background-blurred.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height:90vh;
+  min-width: 100%;
+}
+
+#main-form{
+    width:75%;
+}
+
+#submit-form{
+    background: rgba(17, 17, 17, 0.15);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin:  auto;
+    border-radius: 15px;
+}
+
+#autocomplete{
+    width:40%;
+    font-size: 16px;
+}
+
+#check-in{
+    width:40%;
+    font-size: 14px;
+}
+
+#find-room{
+    margin-left: 15px;
+    width:15%;
+    cursor: pointer;
+}
+
+.logo{
+  width:150px;
+  height:150px;
+}
+
+.slogan {
+  margin-bottom: 1%;
+}
+
+.navLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.RML-login-modal-form{
+  margin-top: 10px;
+}
+
+.RML-recover-password-anchor{
+  margin-right: 25px;
+}
+
+#form-title {
+  margin: 10px;
+  margin-right: 1%;
+  font-weight: bold;
+  color: black;
+  font-size: 22px;
+}

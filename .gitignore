@@ -1,0 +1,13 @@
+# OS Files
+Thumbs.db
+.DS_Store
+
+# node.js
+node_modules
+*-lock.json
+
+# server certificates
+*server.key
+*server.crt
+
+*.mov

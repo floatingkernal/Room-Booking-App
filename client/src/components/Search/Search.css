@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+#root {
+    height: inherit;
+}
+
+.Re-Search {
+    margin: 5%;
+    width: 90%;
+}
+
+.Search {
+    display: grid;
+    grid-template-columns: auto 30%;
+    grid-template-rows: auto 100%;
+    height: inherit;
+    min-height: 90vh;
+}
+
+.Search .Map {
+    order: 1;
+    width: auto;
+    height: inherit;
+    grid-area: 1/1/1/1;
+}
+
+.Map {
+    max-height: 90;
+}
+.Results {
+    order: 2;
+    background-color: #f3f3f3;
+    width: auto;
+    height: inherit;
+}
+
+.RoomItem {
+    cursor: pointer;
+}
+
+.Rooms {
+    overflow-y: scroll;
+    max-height: 90vh;
+}
+
+.uk-card-header{
+    border-top: 1px solid #787878;
+}
+
+.uk-card-title  {
+    display: inline;
+}
+
+.empty-rooms {
+    text-align: center;
+    margin-top: 20%;
+}

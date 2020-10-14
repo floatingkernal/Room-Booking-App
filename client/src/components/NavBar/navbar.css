@@ -1,0 +1,5 @@
+header {
+    background: rgba(0, 0, 0, 0.75);
+    grid-area: 1/ span 2/ 1 / span 2;
+    width: 100%;
+}
